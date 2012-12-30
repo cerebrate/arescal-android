@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">AresCal</string>
+    <string name="MarsSolDate">Mars Sol Date:</string>
+<string-array name="darian_months">
+	<item>Saggitarius</item>
+	<item>Dhanus</item>
+	<item>Capricornus</item>
+	<item>Makara</item>
+	<item>Aquarius</item>
+	<item>Kumbha</item>
+	<item>Pisces</item>
+	<item>Mina</item>
+	<item>Aries</item>
+	<item>Mesha</item>
+	<item>Taurus</item>
+	<item>Rishabha</item>
+	<item>Gemini</item>
+	<item>Mithuna</item>
+	<item>Cancer</item>
+	<item>Karka</item>
+	<item>Leo</item>
+	<item>Simha</item>
+	<item>Virgo</item>
+	<item>Kanya</item>
+	<item>Libra</item>
+	<item>Tula</item>
+	<item>Scorpius</item>
+	<item>Vrishika</item>
+</string-array>
+<string-array name="ep_darian_months">
+	<item>March</item>
+	<item>Dhanus</item>
+	<item>April</item>
+	<item>Makara</item>
+	<item>May</item>
+	<item>Kumbha</item>
+	<item>June</item>
+	<item>Mina</item>
+	<item>July</item>
+	<item>Mesha</item>
+	<item>August</item>
+	<item>Rishabha</item>
+	<item>September</item>
+	<item>Mithuna</item>
+	<item>October</item>
+	<item>Karka</item>
+	<item>November</item>
+	<item>Simha</item>
+	<item>December</item>
+	<item>Kanya</item>
+	<item>January</item>
+	<item>Tula</item>
+	<item>February</item>
+	<item>Vrishika</item>
+</string-array>
+<string-array name="darian_days">
+	<item>Sol Solis</item>
+	<item>Sol Lunae</item>
+	<item>Sol Martius</item>
+	<item>Sol Mercurii</item>
+	<item>Sol Jovis</item>
+	<item>Sol Veneris</item>
+	<item>Sol Saturni</item>
+</string-array>
+<string-array name="earth_days">
+<item>Sunday</item>
+<item>Monday</item>
+<item>Tuesday</item>
+<item>Wednesday</item>
+<item>Thursday</item>
+<item>Friday</item>
+<item>Saturday</item>
+</string-array>
+</resources>

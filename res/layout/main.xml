@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#000000">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:layout_marginTop="10dip" android:layout_marginBottom="10dip">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/MarsSolDate"
+			android:layout_weight="1" android:gravity="center" android:textColor="#ffffff" 
+			android:textSize="16dip" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="right"
+			android:text="52342.12321" android:id="@+id/MarsSolDate"
+			android:layout_weight="1" android:gravity="center" android:textColor="#ffffff" 
+			android:textSize="16dip" />
+	</LinearLayout>
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="right"
+		android:text="Sol Solis, 213 Taurus 8" android:id="@+id/MarsDate"
+		android:layout_weight="0" android:gravity="center" android:textColor="#ffffff"
+		android:textSize="16dip" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="right"
+		android:text="6:25:40 AMT" android:id="@+id/MarsTime"
+		android:layout_weight="0" android:gravity="center"
+		android:layout_marginTop="20dip" android:textSize="20dip" android:textColor="#ffffff"/>
+
+
+<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mars" android:layout_gravity="center" android:layout_marginTop="20dip"></ImageView>
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="right"
+		android:text="TS: Sunday, 8 September, m-0019" android:id="@+id/TSTime"
+		android:layout_weight="0" android:gravity="center"
+		android:layout_marginTop="20dip" android:textSize="16dip" android:textColor="#ffffff"/>
+
+<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="right"
+		android:text="EP: Sunday, 213 August 8" android:id="@+id/EPMarsDate"
+		android:layout_weight="0" android:gravity="center"
+		android:layout_marginTop="20dip" android:textSize="16dip" android:textColor="#ffffff"/>
+
+</LinearLayout>
